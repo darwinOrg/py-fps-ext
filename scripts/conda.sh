@@ -1,0 +1,1 @@
+. $HOME/anaconda3/bin/activate && conda activate $HOME/anaconda3/envs/$1

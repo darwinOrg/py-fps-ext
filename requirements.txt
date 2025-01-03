@@ -1,0 +1,10 @@
+uvicorn
+fastapi
+loguru
+pydantic
+torch
+modelscope
+transformers
+pathlib
+pdfminer-six
+magic_pdf
