@@ -114,5 +114,5 @@ async def global_exception_handler(_: Request, e: Exception):
 
 
 if __name__ == '__main__':
-    port = os.getenv('FPS_GPU_PORT', '10000')
+    port = os.getenv('FPS_EXT_PORT', '10000')
     uvicorn.run(app, host='0.0.0.0', port=int(port))
